@@ -1,0 +1,103 @@
+Xft.dpi: 100
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+URxvt*depth: 32
+URxvt*background: rgba:0000/0000/0200/c800
+
+URxvt.scrollBar: off
+
+! using artwiz-latin1-fonts from AUR
+fbterm*font: xft:Ubuntu Mono:size=10:antialias=false
+URxvt*font: xft:Ubuntu Mono:size=10:antialias=false
+!URxvt*font: xft:Monospace:size=12:antialias=false
+URxvt.boldFont:
+!URxvt.letterSpace: -2
+
+URxvt.transparent: true
+URxvt.shading: 40
+URxvt.blurRadius: 2
+
+!URxvt.tabbed.tabbar-fg: 4
+!URxvt.tabbed.tabbar-bg: 0
+!URxvt.tabbed.tab-fg:    6
+!URxvt.tabbed.tab-bg:    0
+
+*foreground:#a0a0a0
+*background:#1b1d1e
+
+!! mikazuki from xcolors.net
+!!kuro
+!*color0:#2a1d17
+!*color8:#4f362b
+!
+!!aka
+!*color1:#da1657
+!*color9:#da4375
+!
+!!midori
+!*color2:#3ea250
+!*color10:#6cb87a
+!
+!!kiiro
+!*color3:#e3d33d
+!*color11:#e3da84
+
+!!ao
+!*color4:#3ea290
+!*color12:#8ca8a3
+!
+!!momoiro
+!*color5:#ff850d
+!*color13:#ffa64f
+!
+!!mizuiro
+!*color6:#8c16da
+!*color14:#a167c7
+!
+!!shiro
+!*color7:#e9e9e9
+!*color15:#fdfdfd
+
+URxvt.iso14755 : false
+
+URxvt.matcher.button:   1
+
+URxvt.colorUL: #4682B4
+
+URxvt.perl-ext:      default,url-select
+URxvt.keysym.M-u:    perl:url-select:select_next
+URxvt.url-select.launcher:   /usr/local/bin/xxxterm -n
+URxvt.url-select.underline: true
+URxvt.perl-ext-common: default,clipboard
+
+URxvt.inputMethod: ibus
+URxvt.preeditType: OverTheSpot
+
+!black
+*color0:     #252525
+*color8:     #454545
+!red
+*color1:     #EF6769
+*color9:     #FC7CA5
+!green
+*color2:     #A6E22E
+*color10:    #B6E354
+!yellow
+*color3:     #FD971F
+*color11:    #FD971F
+!blue
+*color4:     #6495ED
+*color12:    #87CEEB
+!magenta
+*color5:     #DEB887
+*color13:    #996600
+!cyan
+*color6:     #B0C4DE
+*color14:    #87CEEB
+!white
+*color7:     #DBDCDC
+*color15:    #FDFDFD

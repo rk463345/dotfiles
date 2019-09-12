@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/kdb424/Downloads/PropModder'
+let g:netrw_dirhist_2='/home/kdb424/.conky'
+let g:netrw_dirhist_3='/home/kdb424/PycharmProjects/hashCrack'
+let g:netrw_dirhist_4='/home/kdb424/ethclaymore'
+let g:netrw_dirhist_5='/home/kdb424/PycharmProjects/trader/poloniex'
+let g:netrw_dirhist_6='/home/kdb424/PycharmProjects/trader/bots/modules'

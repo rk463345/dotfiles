@@ -1,0 +1,5 @@
+pane	0	0	:zsh	1	:*	0	:/home/kdb424/PycharmProjects/trader	0	nvim	:nvim poloproxyclone.py
+pane	0	0	:zsh	1	:*	1	:/home/kdb424/PycharmProjects/trader	0	watch	:watch -n .9 nanocat -v -Q --req --connect-ipc /run/user/1000/krypto/poloproxy --data bla
+pane	0	0	:zsh	1	:*	2	:/home/kdb424/PycharmProjects/trader	1	python	:python ./poloproxyclone.py
+window	0	0	1	:*	4775,194x51,0,0[194x32,0,0,0,194x18,0,33{97x18,0,33,1,96x18,98,33,2}]
+state	0	

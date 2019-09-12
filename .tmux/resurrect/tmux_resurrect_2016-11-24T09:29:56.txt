@@ -1,0 +1,20 @@
+pane	0	0	:zsh	1	:*	0	:/home/kdb424	1	zsh	:
+pane	2	0	:zsh	1	:*	0	:/home/kdb424	1	zsh	:
+pane	Trading	0	:Daemons	0	:	0	:/home/kdb424/claymore	1	sh	:sh ./ethCoinbase.sh
+pane	Trading	1	:Devel	0	:	0	:/home/kdb424/PycharmProjects/trader	1	zsh	:
+pane	Trading	1	:Devel	0	:	1	:/home/kdb424	0	zsh	:
+pane	Trading	1	:Devel	0	:	2	:/home/kdb424/PycharmProjects/trader	0	zsh	:
+pane	Trading	1	:Devel	0	:	3	:/home/kdb424	0	zsh	:
+pane	Trading	2	:Trading	0	:-	0	:/home/kdb424/PycharmProjects/trader	0	zsh	:
+pane	Trading	2	:Trading	0	:-	1	:/home/kdb424/PycharmProjects/trader	0	zsh	:
+pane	Trading	2	:Trading	0	:-	2	:/home/kdb424/PycharmProjects/trader	0	zsh	:
+pane	Trading	2	:Trading	0	:-	3	:/home/kdb424/.tmux/plugins/tmux-mem-cpu-load	0	zsh	:
+pane	Trading	2	:Trading	0	:-	4	:/home/kdb424/.tmux/plugins	1	zsh	:
+pane	Trading	3	:	1	:*	0	:/home/kdb424	1	zsh	:
+window	0	0	1	:*	c79d,240x66,0,0,0
+window	2	0	1	:*	6251,364x74,0,0,12
+window	Trading	0	0	:	6402,240x66,0,0,13
+window	Trading	1	0	:	3b13,240x66,0,0{113x66,0,0[113x52,0,0,14,113x13,0,53,15],126x66,114,0[126x42,114,0,16,126x23,114,43,17]}
+window	Trading	2	0	:-	b993,240x66,0,0[240x30,0,0{36x30,0,0,18,37x30,37,0,19,23x30,75,0,20,141x30,99,0,21},240x35,0,31,22]
+window	Trading	3	1	:*	e256,364x74,0,0,27
+state	Trading	

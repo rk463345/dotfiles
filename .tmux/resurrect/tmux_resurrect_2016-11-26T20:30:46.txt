@@ -1,0 +1,4 @@
+pane	0	0	:zsh	1	:*	0	:/mnt/usb	1	sudo	:sudo vim etc/fstab
+pane	0	0	:zsh	1	:*	1	:/home/kdb424	0	sudo	:sudo vim /etc/fstab
+window	0	0	1	:*	9607,240x66,0,0{120x66,0,0,0,119x66,121,0,2}
+state	0	

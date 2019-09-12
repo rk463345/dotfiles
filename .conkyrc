@@ -1,0 +1,27 @@
+own_window yes
+own_window_class conky
+own_window_type override
+own_window_transparent yes
+own_window_colour 000000
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+
+double_buffer yes
+
+gap_x 5
+gap_y 0
+alignment bottom_left
+
+update_interval 1
+
+default_color FBFBFB
+
+use_xft yes
+xftfont ohsnap.icons:size=8
+
+override_utf8_locale yes
+
+use_spacer right
+minimum_size 1910 0
+
+TEXT
+CPU  ${cpu}%     RAM  ${memperc}%     SWAP  ${swapperc}%     Root  ${fs_used_perc /}%     I/O ${diskio}     NAS  ${fs_used_perc /mnt/6tb}%  ${if_existing /proc/net/route eth0}     eth  UP ${upspeed eth0}/s  DOWN ${downspeed eth0}/s  ${endif}  CPU Temp  ${execi 4 sensors | grep 'CPU' | cut -c18-19 }°C

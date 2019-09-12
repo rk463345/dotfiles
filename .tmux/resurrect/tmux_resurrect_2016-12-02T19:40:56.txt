@@ -1,0 +1,6 @@
+pane	0	0	:zsh	1	:*	0	:/home/kdb424/PycharmProjects/trader	0	nvim	:nvim poloproxyclone.py
+pane	0	0	:zsh	1	:*	1	:/home/kdb424	0	zsh	:
+pane	0	0	:zsh	1	:*	2	:/home/kdb424/PycharmProjects/trader	0	zsh	:
+pane	0	0	:zsh	1	:*	3	:/home/kdb424/PycharmProjects/trader	1	zsh	:
+window	0	0	1	:*	e379,194x51,0,0[194x36,0,0{97x36,0,0,0,96x36,98,0,3},194x14,0,37{97x14,0,37,1,96x14,98,37,2}]
+state	0	

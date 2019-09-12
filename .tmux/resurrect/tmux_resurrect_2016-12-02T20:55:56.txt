@@ -1,0 +1,6 @@
+pane	0	0	:zsh	1	:*	0	:/home/kdb424/PycharmProjects/trader	0	zsh	:
+pane	0	0	:zsh	1	:*	1	:/home/kdb424/PycharmProjects/trader/workQueue	1	nvim	:nvim poloniex.py
+pane	0	0	:zsh	1	:*	2	:/home/kdb424/PycharmProjects/trader	0	zsh	:
+pane	0	0	:zsh	1	:*	3	:/home/kdb424/PycharmProjects/trader	0	zsh	:
+window	0	0	1	:*	5d79,194x51,0,0[194x36,0,0{79x36,0,0,0,114x36,80,0,3},194x14,0,37{98x14,0,37,1,95x14,99,37,2}]
+state	0	

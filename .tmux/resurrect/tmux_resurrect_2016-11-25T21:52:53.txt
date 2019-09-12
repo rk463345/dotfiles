@@ -1,0 +1,6 @@
+pane	0	0	:zsh	1	:*	0	:/home/kdb424	1	zsh	:
+pane	0	0	:zsh	1	:*	1	:/home/kdb424	0	zsh	:
+pane	0	0	:zsh	1	:*	2	:/home/kdb424	0	alsamixer	:alsamixer
+pane	0	0	:zsh	1	:*	3	:/home/kdb424/claymore	0	sh	:sh ./ethCoinbase.sh
+window	0	0	1	:*	a999,364x74,0,0[364x37,0,0{182x37,0,0,0,181x37,183,0,5},364x36,0,38{182x36,0,38,2,181x36,183,38,4}]
+state	0	

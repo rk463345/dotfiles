@@ -1,0 +1,22 @@
+pane	0	0	:zsh	1	:*	0	:/home/kdb424	1	zsh	:
+pane	2	0	:zsh	1	:*	0	:/home/kdb424	1	zsh	:
+pane	Trading	0	:Daemons	0	:	0	:/home/kdb424/claymore	1	sh	:sh ./ethCoinbase.sh
+pane	Trading	1	:Devel	0	:	0	:/home/kdb424/PycharmProjects/trader/bots	1	nvim	:nvim bladerunner.py
+pane	Trading	1	:Devel	0	:	1	:/home/kdb424/PycharmProjects/trader/bots	0	zsh	:
+pane	Trading	1	:Devel	0	:	2	:/home/kdb424/PycharmProjects/trader	0	nvim	:nvim bots/modules/something.py
+pane	Trading	1	:Devel	0	:	3	:/home/kdb424/PycharmProjects/trader	0	nvim	:nvim bots/potbot.py
+pane	Trading	2	:Trading	0	:-	0	:/home/kdb424/PycharmProjects/trader	0	zsh	:
+pane	Trading	2	:Trading	0	:-	1	:/home/kdb424/PycharmProjects/trader	0	zsh	:
+pane	Trading	2	:Trading	0	:-	2	:/home/kdb424/PycharmProjects/trader	0	zsh	:
+pane	Trading	2	:Trading	0	:-	3	:/home/kdb424/PycharmProjects/trader	0	zsh	:
+pane	Trading	2	:Trading	0	:-	4	:/home/kdb424/PycharmProjects/trader	0	zsh	:
+pane	Trading	2	:Trading	0	:-	5	:/home/kdb424/claymore	1	zsh	:
+pane	Trading	3	:	1	:*	0	:/home/kdb424	0	zsh	:
+pane	Trading	3	:	1	:*	1	:/home/kdb424/claymore	1	sudo	:sudo wifite
+window	0	0	1	:*	c79d,240x66,0,0,0
+window	2	0	1	:*	6251,364x74,0,0,12
+window	Trading	0	0	:	6252,364x74,0,0,13
+window	Trading	1	0	:	8480,364x74,0,0{175x74,0,0[175x51,0,0,14,175x22,0,52,15],188x74,176,0[188x46,176,0,16,188x27,176,47,17]}
+window	Trading	2	0	:-	d618,364x74,0,0[364x35,0,0{67x35,0,0,18,68x35,68,0,19,54x35,137,0,20,172x35,192,0,21},364x38,0,36{213x38,0,36,22,150x38,214,36,32}]
+window	Trading	3	1	:*	54aa,364x74,0,0{182x74,0,0,27,181x74,183,0,33}
+state	Trading	

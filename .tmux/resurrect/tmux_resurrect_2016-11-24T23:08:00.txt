@@ -1,0 +1,4 @@
+pane	0	0	:zsh	1	:*	0	:/home/kdb424/claymore	1	zsh	:
+pane	0	0	:zsh	1	:*	1	:/home/kdb424	0	bash	:/bin/bash /usr/bin/yaourt -Syu --aur
+window	0	0	1	:*	3c02,364x74,0,0[364x37,0,0,0,364x36,0,38,1]
+state	0	

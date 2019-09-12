@@ -1,0 +1,93 @@
+{
+    "layer": "bottom", // Waybar at top layer
+    "position": "top", // Waybar at the bottom of your screen
+    "height": 24, // Waybar height
+    // "width": 1366, // Waybar width
+    // Choose the order of the modules
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["network", "custom/storage_local", "pulseaudio", "cpu", "custom/cpu_freq", "custom/cpu_temp", "memory", "battery", "tray", "clock"],
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": false,
+        "format": "{icon}",
+        "format-icons": {
+            "1:web": "",
+            "2:code": "",
+            "3:term": "",
+            "4:work": "",
+            "5:music": "",
+            "6:docs": "",
+            "urgent": "",
+            "focused": "",
+            "default": ""
+        }
+    },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 2
+    },
+    "clock": {
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "cpu": {
+	"interval": 2,
+        "format": "{usage}% "
+    },
+    "custom/cpu_temp": {
+        "format": "{}°C",
+        "interval": 10,
+        "exec": "sensors | grep 'CPU' | cut -c18-19"
+    },
+    "custom/cpu_freq": {
+        "format": "{} MHz",
+        "interval": 5,
+        "exec": "cat /proc/cpuinfo| grep MHz | cut -c 12-15 | tr '\n' ' ' | awk '{s+=$1}END{print \"\",s/NR}' RS=\" \" | cut -c 1-5"
+    },
+    "memory": {
+        "format": "{}% "
+    },
+    "battery": {
+        "bat": "BAT0",
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "network": {
+        // "interface": "wlp58s0", // (Optional) To force the use of this interface
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "interval": 2,
+        "format-ethernet": "eth: Up: {bandwidthUpBits} Down: {bandwidthDownBits} ",
+        "format-disconnected": "Disconnected ⚠"
+    },
+    "pulseaudio": {
+        //"scroll-step": 1,
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "headphones": "",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/storage_local": {
+        "format": "{} ",
+        "return-type": "json",
+        "interval": 120
+    }
+}
